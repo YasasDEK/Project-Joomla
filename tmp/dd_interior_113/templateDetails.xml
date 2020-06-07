@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+ <name>dd_interior_113</name>
+ <creationDate>2019-03-27</creationDate>
+ <version>1.0</version>
+ <author>DiabloDesign</author>
+ <authorUrl>http://diablodesign.eu</authorUrl>
+ <description>
+  <![CDATA[
+    <style type="text/css" media="all">
+        <!--
+        h1 {clear:both;font-family: Georgia, sans-serif;font-size:36px;  font-weight: normal;}
+        h2 {clear:both;font-family: Georgia, sans-serif;font-size:20px;  font-weight: normal; }
+        -->
+      </style>
+     
+          <div class="dd-description clearfix">
+          <h1><img src="http://diablodesign.eu/syg.png" /></a><span style="color: #cc0607;"> DD interior 113 Free Version</span></h1>
+            <hr>
+    
+      <div class="pull-left" style="max-width: 35.69%;">
+      <img style="max-width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; padding: 10px; background: #fff; border: 1px solid #e1e1e1;" src="../templates/dd_interior_113/images/sc.jpg" />
+    
+    </div>
+    <div class="pull-left" style="max-width: 64.31%; box-sizing: border-box; -webkit-box-sizing: border-box; padding: 0 30px;">
+      <div style="margin-bottom: 20px;">
+        <div style="margin-bottom: 20px;">
+      
+      
+      <div style="margin: 20px 0 0;">
+        <span style="color: #a0a0a0; display: block; margin-top: 2px;"><li>Not for commercial!!! for commercial use, you must pay a special license (15 EURO)</li></span>
+      <span style="color: #a0a0a0; display: block; margin-top: 2px;"><li>Buy template PRO version</li></span>
+      <a style="text-decoration: none !important; outline: none;" target="_blank" href="http://shop.diablodesign.eu/go.php/buy/dd-interior-113">
+            <img src="http://diablodesign.eu/images/paypal.gif" />
+          </a>
+          <a href="http://shop.diablodesign.eu/go.php/buy/dd-interior-113" target="_blank" style="margin: 0 20px; color: #3ea5ea;">Buy the full version of the template AMOUNT 15 €</a>
+          <span style="color: #ff0000; display: block; margin-top: 2px;"><li>Pełna wersja szablonu wyglądająca tak jak na demo kosztuje (40PLN Brutto).</li> <li> Pełną wersję szablonu można kupić na naszej stronie internetowej.<a style="font-size: 15px; color: #3ea5ea;" target="_blank" href="https://diablodesign.eu/formularz">www.diablodesign.eu</a></li></span>
+
+        </div></div></div></div>
+  </div>
+  ]]>
+ </description>
+ <files>
+  <file>Readme.txt</file>
+  <file>bootstrap.min.js</file>
+  <file>component.php</file>
+  <file>error.php</file>
+  <file>functions-additional.php</file>
+  <file>functions.php</file>
+  <file>index.html</file>
+  <file>index.php</file>
+  <file>jquery.js</file>
+  <file>layout.core.js</file>
+  <file>layout.ie.css</file>
+  <file>layout.ie.js</file>
+  <file>modrender.php</file>
+  <file>script.js</file>
+  <file>style.ie.css</file>
+  <file>templateDetails.xml</file>
+  <file>virtuemart.js</file>
+  <folder>css</folder>
+  <folder>data</folder>
+  <folder>fields</folder>
+  <folder>html</folder>
+  <folder>images</folder>
+  <folder>includes</folder>
+  <folder>js</folder>
+  <folder>language</folder>
+  <folder>library</folder>
+  <folder>plugins</folder>
+  <folder>prototypes</folder>
+  <folder>templates</folder>
+  <folder>site</folder>
+  <folder>admin</folder>
+ </files>
+ <positions>
+  <position>bottom-banner-1</position>
+  <position>breadcrumb</position>
+  <position>dd-footer-1</position>
+  <position>dd-footer-2</position>
+  <position>dd-footer-3</position>
+  <position>dd-footer-4</position>
+  <position>dd-footer-5</position>
+  <position>dd-footer-6</position>
+  <position>dd-footer-7</position>
+  <position>dd-top-1</position>
+  <position>dd-top-2</position>
+  <position>dd-top-3</position>
+  <position>dd-top-4</position>
+  <position>dd-top-5</position>
+  <position>dd-top-6</position>
+  <position>dd-top-7</position>
+  <position>left</position>
+  <position>mod1</position>
+  <position>mod2</position>
+  <position>mod3</position>
+  <position>position-1</position>
+  <position>position-7</position>
+  <position>position-8</position>
+  <position>post1</position>
+  <position>post2</position>
+  <position>topbanner-1</position>
+ </positions>
+ <config>
+  <fields name="params" addfieldpath="/templates/dd_interior_113/fields">
+   <fieldset name="config" label="Configuration">
+    <field type="spacer" class="text" label="...........................................LOGO....................................................." />
+    <field name="logoFile" default="templates/dd_interior_113/images/designer/logo.png" type="media" label="TPL_LOGO_LABEL" description="TPL_LOGO_DESC"/>
+    <field name="logoLink" default="" type="text" label="TPL_LOGOLINK_LABEL" description="TPL_LOGOLINK_DESC"/>
+    <field type="spacer" class="text" label="......................License.KEY..................................................................." />
+    <field name="license" type="text" default="XXXX-XXXX-XXXX-XXXX" size="50" label="License key" disabled="true" />
+    <field type="spacer" class="text" label="...........................................FAVICON.................................................." />
+    <field name="fav" type="media" label="Upload favicon" description="" default="templates/dd_interior_113/images/designer/favicon.ico" />
+   </fieldset>
+   <fieldset name="slideshow" label="Slideshow">
+    <field type="spacer" class="text" label="...............................SLIDE.1.................................................................." />
+    <field name="s1-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/1.jpg"/>
+    <field name="s1-2" type="text" label="Caption"  default="Architecture Interior"/>
+    <field name="s1-2a" type="text" label="Caption"  default="lorem ipsum dolor sit amet"/>
+    <field name="s1-3" type="text" label="Text"  default="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="s1-4" type="text" default="Read More" size="50" label="button" />
+    <field name="s1-5" type="text" default="http://" size="50" label="http://" />
+    <field name="slide1" type="radio" default="1" class="btn-group"  label="" >
+     <option value="1">ON</option>
+     <option value="0">OFF</option>
+    </field>
+    <field type="spacer" class="text" label="...............................SLIDE.2.................................................................." />
+    <field name="s2-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/2.jpg"/>
+    <field name="s2-2" type="text" label="Caption"  default="Architecture Interior"/>
+    <field name="s2-3" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="s2-4" type="text" default="Read More" size="50" label="button" />
+    <field name="s2-5" type="text" default="http://" size="50" label="http://" />
+    <field name="slide2" type="radio" default="1" class="btn-group"  label="" >
+     <option value="1">ON</option>
+     <option value="0">OFF</option>
+    </field>
+    <field type="spacer" class="text" label="...............................SLIDE.3.................................................................." />
+    <field name="s3-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/3.jpg"/>
+    <field name="s3-2" type="text" label="Caption"  default="Architecture Interior"/>
+    <field name="s3-3" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="s3-4" type="text" default="Read More" size="50" label="button" />
+    <field name="s3-5" type="text" default="http://" size="50" label="http://" />
+    <field name="slide3" type="radio" default="1" class="btn-group"  label="" >
+     <option value="1">ON</option>
+     <option value="0">OFF</option>
+    </field>
+    <field type="spacer" class="text" label="...............................SLIDE.4.................................................................." />
+    <field name="s4-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/4.jpg"/>
+    <field name="s4-2" type="text" label="Caption"  default="Architecture Interior"/>
+    <field name="s4-3" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="s4-4" type="text" default="Read More" size="50" label="button" />
+    <field name="s4-5" type="text" default="http://" size="50" label="http://" />
+    <field name="slide4" type="radio" default="1" class="btn-group"  label="" >
+     <option value="1">ON</option>
+     <option value="0">OFF</option>
+    </field>
+    <field type="spacer" class="text" label="...............................SLIDE.5.................................................................." />
+    <field name="s5-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/5.jpg"/>
+    <field name="s5-2" type="text" label="Caption"  default="Architecture Interior"/>
+    <field name="s5-3" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="s5-4" type="text" default="Read More" size="50" label="button" />
+    <field name="s5-5" type="text" default="http://" size="50" label="http://" />
+    <field name="slide5" type="radio" default="1" class="btn-group"  label="" >
+     <option value="1">ON</option>
+     <option value="0">OFF</option>
+    </field>
+    <field type="spacer" class="text" label="..........................................Speed slideshow............................................." />
+    <field name="speed" type="text" default="4600" size="50"  label="Speed slideshow 0/ms " disabled="false"/>
+    <field type="spacer" label="Dispalay Slideshow "/>
+    <field type="spacer" class="text" label=".......Close.section.Slideshow.................................................." />
+    <field name="slideshow_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="slideshow-post" label="Slideshow Post">
+    <field type="spacer" class="text" label="........Slide1.................................................................." />
+    <field name="sp1-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow_post/1.jpg"/>
+    <field name="sp1-2" type="text" label="Caption"  default="ENTER YOUR TEXT HERE"/>
+    <field type="spacer" class="text" label="........Slide2.................................................................." />
+    <field name="sp2-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow_post/2.jpg"/>
+    <field name="sp2-2" type="text" label="Caption"  default="ENTER YOUR TEXT HERE"/>
+    <field type="spacer" class="text" label="........Slide3.................................................................." />
+    <field name="sp3-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow_post/3.jpg"/>
+    <field name="sp3-2" type="text" label="Caption"  default="ENTER YOUR TEXT HERE"/>
+    <field type="spacer" class="text" label="........Slide4.................................................................." />
+    <field name="sp4-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow_post/4.jpg"/>
+    <field name="sp4-2" type="text" label="Caption"  default="ENTER YOUR TEXT HERE"/>
+    <field type="spacer" class="text" label="........Slide5.................................................................." />
+    <field name="sp5-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow_post/5.jpg"/>
+    <field name="sp5-2" type="text" label="Caption"  default="ENTER YOUR TEXT HERE"/>
+    <field type="spacer" class="text" label=".......Close.Slideshow.Post.................................................." />
+    <field name="slideshowpost_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="counter" label="Counter">
+    <field type="spacer" class="text" label="........Counter1.................................................................." />
+    <field name="co1" type="text" default="#F99F18" label="Color " disabled="false" class="color {pickerPosition:'right',hash:true,caps:false,required:false}" />
+    <field name="c1-1" type="text" default="313" label="Counter count"/>
+    <field name="c1-2" type="text" default="Customers" label="Title"/>
+    <field name="c1-3" type="text" default="fa fa-users" label="Icon"  />
+    <field type="spacer" class="text" label="........Counter2.................................................................." />
+    <field name="co2" type="text" default="#F99F18" label="Color " disabled="false" class="color {pickerPosition:'right',hash:true,caps:false,required:false}" />
+    <field name="c2-1" type="text" default="223" label="Counter count"/>
+    <field name="c2-2" type="text" default="Brand Building" label="Title"/>
+    <field name="c2-3" type="text" default="fa fa-chess-knight" label="Icon"  />
+    <field type="spacer" class="text" label="........Counter3.................................................................." />
+    <field name="co3" type="text" default="#F99F18" label="Color " disabled="false" class="color {pickerPosition:'right',hash:true,caps:false,required:false}" />
+    <field name="c3-1" type="text" default="578" label="Counter count"/>
+    <field name="c3-2" type="text" default="Sold Apartaments" label="Title"/>
+    <field name="c3-3" type="text" default="fa fa-building" label="Icon"  />
+    <field type="spacer" class="text" label="........Counter4.................................................................." />
+    <field name="co4" type="text" default="#F99F18" label="Color " disabled="false" class="color {pickerPosition:'right',hash:true,caps:false,required:false}" />
+    <field name="c4-1" type="text" default="1178" label="Counter count"/>
+    <field name="c4-2" type="text" default="Projects" label="Title"/>
+    <field name="c4-3" type="text" default="fa fa-globe" label="Icon"  />
+    <field type="spacer" class="text" label=".......Close.section.Counter.................................................." />
+    <field name="counter_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="info1" label="Info 1">
+    <field name="in-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/1img.png"/>
+    <field name="in-2" type="text" default="Enter your text here !!!" label="Title"/>
+    <field name="in-3" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="in-4" type="text" default="Read More" size="50" label="button" />
+    <field name="in-5" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label=".......Close.section.info1...................................................." />
+    <field name="info1_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="gallery1" label="Gallery">
+    <field type="spacer" class="text" label="........photo1.................................................................." />
+    <field name="g1-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/1.jpg"/>
+    <field name="g1-2" type="text" default="$900.000" label="Title"/>
+    <field name="g1-2" type="text" default="Rio de Janeiro" label="Title"/>
+    <field name="g1-3" type="text" default="$900.000" label="Title2"/>
+    <field type="spacer" class="text" label="........photo2.................................................................." />
+    <field name="g2-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/2.jpg"/>
+    <field name="g1-2" type="text" default="$900.000" label="Title"/>
+    <field name="g2-2" type="text" default="Buenos Aires" label="Title"/>
+    <field name="g2-3" type="text" default="$2.000.000" label="Title2"/>
+    <field type="spacer" class="text" label="........photo3.................................................................." />
+    <field name="g3-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/3.jpg"/>
+    <field name="g1-2" type="text" default="$900.000" label="Title"/>
+    <field name="g3-2" type="text" default="London" label="Title"/>
+    <field name="g3-3" type="text" default="$1.500.000" label="Title2"/>
+    <field type="spacer" class="text" label="........photo4.................................................................." />
+    <field name="g4-1" type="media" label="Upload photo " description="" default="templates/dd_interior_113/images/designer/slideshow/4.jpg"/>
+    <field name="g1-2" type="text" default="$900.000" label="Title"/>
+    <field name="g4-2" type="text" default="$1.900.000" label="Title"/>
+    <field name="g4-3" type="text" default="New York" label="Title2"/>
+    <field type="spacer" class="text" label=".......Close.section.gallery......................................................" />
+    <field name="gallery1_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="info2" label="Info 2">
+    <field name="in2-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/2img.jpg"/>
+    <field name="in2-2" type="text" default="Enter your text here !!!" label="Title"/>
+    <field name="in2-3" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="in2-4" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor "/>
+    <field name="in2-5" type="text" default="Read More" size="50" label="button" />
+    <field name="in2-6" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label=".......Close.sectio.info2........................................................." />
+    <field name="info2_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="portfolio" label="Portfolio">
+    <field name="ga-background" type="media" label="Background image" description="" default="templates/dd_interior_113/images/designer/galeria2/bg.jpg"/>
+    <field name="ga-header" type="text" default="Create the home you've always wanted" label="Header Title"/>
+    <field type="spacer" class="text" label="........photo1.................................................................." />
+    <field name="ga1-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/galeria2/ga1.jpg"/>
+    <field name="ga1-2" type="text" default="Fresh Ideas" label="Title "/>
+    <field name="ga1-3" type="text" default="Discover design ideas" label="Title 2"/>
+    <field name="ga1-4" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label="........photo2.................................................................." />
+    <field name="ga2-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/galeria2/ga2.jpg"/>
+    <field name="ga2-2" type="text" default="Outside the Home" label="Title "/>
+    <field name="ga2-3" type="text" default="We extend our living spaces" label="Title 2"/>
+    <field name="ga2-4" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label="........photo3.................................................................." />
+    <field name="ga3-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/galeria2/ga3.jpg"/>
+    <field name="ga3-2" type="text" default="Building Future" label="Title "/>
+    <field name="ga3-3" type="text" default="We design new homes" label="Title 2"/>
+    <field name="ga3-4" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label="........photo4.................................................................." />
+    <field name="ga4-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/galeria2/ga4.jpg"/>
+    <field name="ga4-2" type="text" default="Simple Style" label="Title "/>
+    <field name="ga4-3" type="text" default="We work with natural shade" label="Title 2"/>
+    <field name="ga4-4" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label="........photo5.................................................................." />
+    <field name="ga5-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/galeria2/ga5.jpg"/>
+    <field name="ga5-2" type="text" default="Home Accessories" label="Title "/>
+    <field name="ga5-3" type="text" default="The level of our creativity" label="Title 2"/>
+    <field name="ga5-4" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label="........photo6.................................................................." />
+    <field name="ga6-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/galeria2/ga6.jpg"/>
+    <field name="ga6-2" type="text" default="Kitchen Design" label="Title "/>
+    <field name="ga6-3" type="text" default="Good kitchen design means" label="Title 2"/>
+    <field name="ga6-4" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label=".......Close.section.portfolio.................................................." />
+    <field name="portfolio_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="info3" label="Info 3">
+    <field name="in3-1" type="media" label="Upload image " description="" default="templates/dd_interior_113/images/designer/3img.png"/>
+    <field name="in3-2" type="text" default="Enter your text here !!!" label="Title"/>
+    <field name="in3-3" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="in3-4" type="text" default="Read More" size="50" label="button" />
+    <field name="in3-5" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label=".......Close.section.info3...................................................." />
+    <field name="info3_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="footer" label="Footer">
+    <field type="spacer" class="text" label="........About.................................................................." />
+    <field name="fo-1" type="text" default="About Us" label="Title"/>
+    <field name="fo-2" type="text" label="Text"  default="orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"/>
+    <field name="fo-3" type="text" default="Read More" size="50" label="button" />
+    <field name="fo-4" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label="........Menu...................................................................." />
+    <field name="fom-header" type="text" default="Menu" label="Title Menu"/>
+    <field name="fom-1" type="text" default="Website Terms" label="Title"/>
+    <field name="fom-2" type="text" default="http://" size="50" label="http://" />
+    <field name="fom-3" type="text" default="Privacy policy" label="Title"/>
+    <field name="fom-4" type="text" default="http://" size="50" label="http://" />
+    <field name="fom-5" type="text" default="Cookies policy" label="Title"/>
+    <field name="fom-6" type="text" default="http://" size="50" label="http://" />
+    <field type="spacer" class="text" label="........Contact.................................................................." />
+    <field name="foc-header" type="text" default="Biuro Rachunkowe" label="Title" />
+    <field name="foc-1" type="text" default="ul.łowińskiego 9" label="Adress" />
+    <field name="foc-2" type="text" default="31-752 Kraków Poland" size="50" label="Adress"  />
+    <field name="foc-3" type="text" default="666 208 188" label="Phone 1" />
+    <field name="foc-4" type="text" default="+1 (555) 123 4891" size="50" label="Phone 2" />
+    <field name="foc-5" type="text" default="info@website.com" label="E-mail"/>
+    <field name="foc-6" type="text" default="https://biurorachunkowe.be" size="50" label="Website" />
+    <field type="spacer" class="text" label="........Maps....................................................................." />
+    <field name="fom1" type="text" default="Poland" label="Country" description="City" filter="string" />
+    <field name="fom2" type="text" default="biuro rachunkowe, Łowińskiego 9, Kraków" label="Street" description="Street" filter="string" />
+    <field type="spacer" class="text" label="........Site.Name................................................................" />
+    <field name="footer1" type="text" default="Interior 113" size="50" label="Site name" description="footer site name"/>
+    <field type="spacer" class="text" label=".......Close.section.footer......................................................" />
+    <field name="footer_close" type="radio" default="1" class="btn-group"  label="" >
+     <option value="0">OFF</option>
+     <option value="1">ON</option>
+    </field>
+   </fieldset>
+   <fieldset name="design" label="Design BY">
+    <field type="spacer" class="text" label=".....Disable.Design BY............................................................" />
+    <field name="design_close" type="radio" default="1" class="btn-group"  label="" disabled="true" >
+     <option value="1">ON</option>
+     <option value="0">OFF</option>
+    </field>
+   </fieldset>
+  </fields>
+ </config>
+ <languages folder="language">
+  <language tag="en-GB">en-GB/en-GB.tpl_dd_interior_113.ini</language>
+  <language tag="pl-PL">pl-PL/pl-PL.tpl_dd_interior_113.ini</language>
+ </languages>
+</extension>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN"
+        "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site" method="upgrade">
+    <name>tz_consulta</name>
+    <version>1.0.0</version>
+    <creationDate>03/30/2018</creationDate>
+    <author>TemPlaza.com</author>
+    <authorEmail>info@templaza.com</authorEmail>
+    <copyright>Copyright (C) 2018 TemPlaza. All rights reserved.</copyright>
+    <description><![CDATA[Consulta - Consultation &amp; Lawyer Joomla TemPlate]]></description>
+    <group>plazart</group>
+    <documentation>http://www.templaza.com/</documentation>
+    <tzupdate>http://www.templaza.com/</tzupdate>
+    <tzrequired>
+        <item>
+            <name>TZ Portfolio</name>
+            <code>com_tz_portfolio_plus</code>
+            <url>https://www.tzportfolio.com/</url>
+        </item>
+    </tzrequired>
+    <files>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>favicon.ico</filename>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+		<filename>templateInfo.php</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <folder>admin</folder>
+        <folder>bootstrap</folder>
+        <folder>config</folder>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>fonts</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>layouts</folder>
+        <folder>sppagebuilder</folder>
+    </files>
+    <positions>
+        <position>debug</position>
+        <position>menu</position>
+        <position>banner</position>
+        <position>position-0</position>
+        <position>position-1</position>
+        <position>position-2</position>
+        <position>position-3</position>
+        <position>position-4</position>
+        <position>position-5</position>
+        <position>position-6</position>
+        <position>position-7</position>
+        <position>position-8</position>
+        <position>position-9</position>
+        <position>position-10</position>
+        <position>position-11</position>
+        <position>position-12</position>
+        <position>position-13</position>
+        <position>position-14</position>
+        <position>position-15</position>
+        <position>footer</position>
+    </positions>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_tz_consulta.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_tz_consulta.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="theme_params" label="TZ_THEME_LABEL" description="TZ_THEME_DESC"
+                      addfieldpath="/templates/tz_consulta/admin/elements">
+
+                <field name="logo_type" type="list" default="image" label="TPL_TZ_LANG_LOGO_TYPE"
+                       description="TPL_TZ_LANG_LOGO_TYPE_DESC">
+                    <option value="image">TPL_TZ_LANG_LOGO_TYPE_IMAGE</option>
+                    <option value="text">TPL_TZ_LANG_LOGO_TYPE_TEXT</option>
+                    <option value="css">TPL_TZ_LANG_LOGO_TYPE_CSS</option>
+                    <option value="none">TPL_TZ_LANG_LOGO_TYPE_NONE</option>
+                </field>
+
+                <field name="logo_image" type="media" default="" label="TPL_TZ_LANG_LOGO_IMAGE"
+                       description="TPL_TZ_LANG_LOGO_IMAGE_DESC"/>
+
+                <field name="logo_text" type="text" default="" label="TPL_TZ_LANG_LOGO_TEXT"
+                       description="TPL_TZ_LANG_LOGO_TEXT_DESC"/>
+
+                <field name="logo_slogan" type="text" default="" label="TPL_TZ_LANG_LOGO_SLOGAN"
+                       description="TPL_TZ_LANG_LOGO_SLOGAN_DESC"/>
+
+                <field name="favicon_image" type="media" default="" label="TPL_TZ_LANG_FAVICON_IMAGE"
+                       description="TPL_TZ_LANG_FAVICON_IMAGE_DESC"/>
+                <field
+                        name="fix_topbar"
+                        type="radio"
+                        class="btn-group"
+                        label="TPL_TZ_LANG_FIX_TOPBAR"
+                        default="1"
+                        description="TPL_TZ_LANG_FIX_TOPBAR_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                        name="framework_logo"
+                        type="radio"
+                        class="btn-group"
+                        label="TPL_TZ_LANG_FRAMEWORK_LOGO"
+                        default="1"
+                        description="TPL_TZ_LANG_FRAMEWORK_LOGO_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+            <fieldset name="layout_params">
+                <field type="plazartlayout" name="generate" />
+            </fieldset>
+
+            <!-- Font settings -->
+            <fieldset name="font_params" addfieldpath="/plugins/system/plazart/includes/depend">
+                <field name="font_name_custom1" type="plazarttypo" directory="templates/tz_consulta/fonts/" customtag=".plazart-megamenu .navbar-nav > li a"
+                       label="PLAZART_FONT_NAME_MENU" description="PLAZART_FONT_NAME_MENU" default='{"fontType":"google","fontFamily":"Poppins","lineHeight":"1.6","fontWeight":"400","fontSubset":"latin","fontSize":"16px","fontStyle":"normal","customTag":".plazart-megamenu .navbar-nav > li a, #tz-top-header-wrapper"}'/>
+                <field name="font_name_custom2" type="plazarttypo" directory="templates/tz_consulta/fonts/" customtag=".btn"
+                       label="PLAZART_FONT_NAME_BUTTON" description="PLAZART_FONT_NAME_BUTTON" default='{"fontType":"google","fontFamily":"Poppins","lineHeight":"1.6","fontWeight":"200","fontSubset":"latin","fontSize":"16px","fontStyle":"normal","customTag":".btn"}'/>
+                <field name="font_name_custom3" type="plazarttypo" directory="templates/tz_consulta/fonts/" customtag=".tplProfiler .element .TzInner .profiler-intro .TzPortfolioDescription .position, .tplProfiler .element .TzInner .profiler-intro .TzPortfolioDescription .profiler-phone"
+                       label="PLAZART_FONT_NAME_PROFILER_POSITION" description="PLAZART_FONT_NAME_PROFILER_POSITION" default='value="{"fontType":"google","fontFamily":"Poppins","lineHeight":"1.6","fontWeight":"600","fontSubset":"latin","fontSize":"12px","fontStyle":"normal","customTag":".tplProfiler .element .TzInner .profiler-intro .TzPortfolioDescription .position, .tplProfiler .element .TzInner .profiler-intro .TzPortfolioDescription .profiler-phone"}"'/>
+                <field name="font_name_custom4" type="plazarttypo" directory="templates/tz_consulta/fonts/" customtag="#ed"
+                       label="PLAZART_FONT_NAME_EASYDISCUSS" description="PLAZART_FONT_NAME_EASYDISCUSS" default='{"fontType":"google","fontFamily":"Cormorant Garamond","lineHeight":"1.6","fontWeight":"500","fontSubset":"latin","fontSize":"16px","fontStyle":"normal","customTag":"#ed"}'/>
+            </fieldset>
+
+            <!-- Dev settings -->
+            <fieldset name="dev_params">
+                <field
+                        name="css_prefixer"
+                        type="radio"
+                        class="btn-group"
+                        label="TPL_TZ_LANG_CSS_PREFIXER"
+                        default="0"
+                        description="TPL_TZ_LANG_CSS_PREFIXER_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="max_page_width" type="text" default="" label="TPL_TZ_LANG_MAX_PAGE_WIDTH"
+                       description="TPL_TZ_LANG_MAX_PAGE_WIDTH_DESC"/>
+
+                <field name="max_page_width_value" type="list" default="px" label="TPL_TZ_LANG_MAX_PAGE_WIDTH_UNIT"
+                       description="TPL_TZ_LANG_MAX_PAGE_WIDTH_UNIT_DESC">
+                    <option value="px">TPL_TZ_LANG_PIXEL</option>
+                    <option value="%">TPL_TZ_LANG_PERCENT</option>
+                </field>
+                <field name="css_custom" type="textarea" class="plazart-admin-textarea" global="1"
+                       filter="raw" default="" label="TPL_TZ_LANG_CSS_CUSTOM"
+                       description="TPL_TZ_LANG_CSS_CUSTOM_DESC"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

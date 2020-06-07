@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+/*article image*/
+.bd-postimage-1 {padding: 5px; margin-top: 12px; margin-right: 10px; border: solid 1px rgba(195,195,195,1.00) }
+.bd-postimage-3 { margin-top: 5px; margin-right: 10px;}
+
+/*article header*/
+.bd-flexalign-9 { margin-top: 10px; }
+h2.bd-postheader-2 a, h2.bd-postheader-3 a { color: #ff6c00; font-size: 24px;}
+/*backroundpage*/
+.bd-pagebackground-439, 
+.bd-pagebackground-322,
+.bd-pagebackground-213,
+.bd-pagebackground-22  {background-image: url(../images/designer/bg4.jpg);}

@@ -1,0 +1,19 @@
+FlippingBook Gallery Component (Trial License)
+
+End-User License Agreement 
+This FlippingBook Gallery End-User License Agreement ("EULA") is a legal AGREEMENT between you and Mediaparts Interactive S.A. for the FlippingBook Gallery Component software product identified above, which product includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("Software Product" or "Software " or "Product"). By downloading, installing, copying, or otherwise using the Software product, you agree to be bound by the terms of this EULA.
+Do not use this Software Product until you have carefully read the following terms and conditions. By using the Software Product, you agree to the terms of this Agreement. If you do not wish to so agree, do not install or use this Software Product.
+
+LICENSE GRANT
+Mediaparts Interactive S.A. grants to you, on these terms and conditions, the non-exclusive right and license to use this Software. The Software is offered under a TRIAL LICENSE and it can only be used under ONE DOMAIN NAME. A trial license is available to evaluate this software product prior to purchase and it enables capabilities within the software product only for 30 days. The trial period begins once the software is downloaded through the vendor web site and is non-renewable.
+
+DISCLAIMER OF WARRANTY
+By downloading this software you agree that you wish to use the selected software and that you will not hold Mediaparts Interactive S.A., responsible in any way. Using of this software means that you have understood and agreed to all the terms and conditions of this disclaimer. 
+Mediaparts Interactive S.A. does not take any responsibility and is not liable for any damage caused through use of this software, be it indirect, special, incidental or consequential damages (including damages for loss of business, loss of profits, interruption or the like). Mediaparts Interactive S.A. does not take responsibility for the correct workings of software that has been modified in any way or by their use in ways they weren't designed for. 
+We cannot guarantee full compatibility of the products acquired by you with Joomla CMS versions released after the purchase. We do not bear any responsibility for such compatibility problems. 
+This software is sold on an AS IS basis. All features are listed on the product page. By downloading this software you agree that you have read and understood the product specifications and have assessed that they can be used by you in the way that you require. 
+
+OWNERSHIP
+All right, title and interest in the intellectual property embodied in the Software and accompanying materials, if any, are owned by Mediaparts Interactive S.A. or its licensors. The Software is copyrighted and protected by international treaty provisions. Exclusive rights for commercial use of the Software worldwide are owned by Mediaparts Interactive S.A. 
+As defined by this Agreement, End-User receives limited rights of using the Software only. This Agreement does not grant you any intellectual property rights in the Software.
+

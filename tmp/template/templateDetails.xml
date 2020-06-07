@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="template" client="site" method="upgrade">
+    <name>Kids</name>
+    <creationDate>March 2019</creationDate>
+    <author>web-komp.eu</author>
+    <authorEmail>biuro@web-komp.eu</authorEmail>
+    <authorUrl>http://www.web-komp.eu</authorUrl>
+    <copyright>Copyright(C) 2018 WebKomp.eu All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2 or later</license>
+    <version>1.0.0</version>
+    <description>Kids - Joomla Template</description>
+
+    <languages>
+        <language tag="en-GB">en-GB.tpl_kids.ini</language>
+    </languages>
+
+    <positions>
+        <position>title</position>
+        <position>top1</position>
+        <position>top2</position>
+        <position>top3</position>
+        <position>logo</position>
+        <position>menu</position>
+        <position>search</position>
+        <position>slide</position>
+        <position>user1</position>
+        <position>user2</position>
+        <position>user3</position>
+        <position>user4</position>
+        <position>left</position>
+        <position>right</position>
+        <position>feature</position>
+        <position>slider</position>
+        <position>position1</position>
+        <position>position2</position>
+        <position>position3</position>
+        <position>position4</position>
+        <position>position5</position>
+        <position>position6</position>
+        <position>position7</position>
+        <position>position8</position>
+        <position>content-top</position>
+        <position>content-bottom</position>
+        <position>bottom1</position>
+        <position>bottom2</position>
+        <position>bottom3</position>
+        <position>bottom4</position>
+        <position>breadcrumb</position>
+        <position>footer1</position>
+        <position>footer2</position>
+        <position>comingsoon</position>
+        <position>offcanvas</position>
+        <position>pagebuilder</position>
+        <position>404</position>
+        <position>debug</position>
+    </positions>
+
+    <files>
+        <file>index.php</file>
+        <file>template_preview.png</file>
+        <file>template_thumbnail.png</file>
+        <file>options.xml</file>
+        <file>options.json</file>
+        <file>templateDetails.xml</file>
+        <file>offline.php</file>
+        <file>helper.php</file>
+        <file>component.php</file>
+        <file>comingsoon.php</file>
+        <file>error.php</file>
+        <folder>css/</folder>
+        <folder>features/</folder>
+        <folder>headers/</folder>
+        <folder>fonts/</folder>
+        <folder>html/</folder>
+        <folder>images/</folder>
+        <folder>js/</folder>
+        <folder>scss/</folder>
+    </files>
+    <config>
+        <fieldset name="basic" addfieldpath="/plugins/system/helixultimate/fields">
+            <field name="helixdetails" type="helixdetails" />
+        </fieldset>
+    </config>
+</extension>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>Plazart Framework</name>
+	<author>TemPlaza.com</author>
+	<creationDate>18 April 2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@templaza.com</authorEmail>
+	<authorUrl>http://www.plazart.com</authorUrl>
+	<version>5.7</version>
+	<description>
+	Plazart Framework installed successful!
+	</description>	
+	<scriptfile>plazart.script.php</scriptfile>
+	<files>
+		<filename plugin="plazart">plazart.php</filename>
+		<filename>index.html</filename>
+		<folder>admin</folder>
+		<folder>includes</folder>
+		<folder>base</folder>
+	</files>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB.plg_system_plazart.ini</language>
+		<language tag="en-GB">en-GB.plg_system_plazart.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		</fields>
+	</config>
+	
+	<updateservers>     
+	        <server type="extension" priority="1" name="Plazart Framework Update"><![CDATA[https://raw.githubusercontent.com/templaza/plazart/master/update.xml]]></server>   
+	</updateservers>
+</extension>
